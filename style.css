@@ -1,0 +1,64 @@
+.stop-left { stop-color: #f2f2f2; }
+.stop-right { 
+	stop-color: #29293d; 
+}
+
+.filled { 
+	fill: url(#mainGradient);
+}
+
+.outlined { 
+	fill:   none; 
+	stroke: url(#mainGradient); 
+	stroke-width: 4; 
+}
+
+body { 
+	font-family: 'Signika', sans-serif;
+	background-color: #F9F9F9;
+	text-align: center;
+}
+
+h3{
+	font-family: 'Signika', sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.descript{
+	background-color: #161629;
+	font-family: 'Alegreya Sans', sans-serif;
+	text-align: center;
+	color: white;
+	line-height: 160%;
+	font-weight: normal;
+	padding: 15px 0px 15px 0px;
+}
+
+.last{
+	padding-bottom: 70px;
+}
+
+.data {
+	padding: 20px 0px 20px 0px;
+}
+
+p{
+	width: 70%;
+	display: inline-block;
+}
+
+h1{
+	font-size: 45px;
+	padding: 15px;
+	width: 20%;
+	border: 1px solid white;
+	display: inline-block;
+}
+
+h2{
+	font-size: 30px;
+	padding: 15px;
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+}
